@@ -17,9 +17,9 @@ body {
 
 p {
   color: white;
-  background-color: rgba(0, 0, 0, 0.26); 
-
+   background-color: rgba(179, 179, 179, 0.205);
 }
+
 footer{
   position: fixed;
   bottom: 0px;
