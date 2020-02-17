@@ -29,6 +29,12 @@ footer{
 }
 article {
   background-color:rgba(70, 70, 70, 0.432);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+aside {
+  position: absolute;
+  right: 0;
 }
 nav{
   position: fixed;
