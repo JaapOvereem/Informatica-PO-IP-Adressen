@@ -15,7 +15,9 @@ body {
 }
 
 a {
-  color: darkorange;
+  color: rgb(255, 255, 255);
+  background-color: rgba(44, 44, 44, 0.089);
+  font-family: Arial, Helvetica, sans-serif;
 }
 p {
   color: white;
