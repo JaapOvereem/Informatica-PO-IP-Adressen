@@ -14,7 +14,9 @@ body {
   background-image: url('https://fris.online/wp-content/uploads/2018/05/shutterstock_377558.jpg');
 }
 
-
+a {
+  color: darkorange;
+}
 p {
   color: white;
    background-color: rgba(179, 179, 179, 0.205);
