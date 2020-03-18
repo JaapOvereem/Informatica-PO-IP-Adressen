@@ -40,15 +40,37 @@ aside {
   position: absolute;
   right: 0;
 }
-nav{
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  height: 700px;
-  margin-right: 400px;
-}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.473);
+  border-radius: 5px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+.active {
+  background-color: #1DF2B2;
+  color:#000000;
+}
+
+li a:hover {
+  background-color: rgb(83, 54, 150);
 }
