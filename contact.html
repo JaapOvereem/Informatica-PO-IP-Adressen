@@ -22,3 +22,38 @@
 			</h1>
 			<p><font size="4"> Hieronder kunt u uw contactgegevens invullen zodat wij contact met u kunnen opnemen. </font></p>
 		</div>
+    <div class="container">
+<fieldset>
+ <legend> <h2>Contact gegevens:</h2> </legend>
+  <form action="/action_page.php">
+    <label for="voornaam">Voornaam</label>
+    <input type="text" placeholder="Uw naam..." required="">
+
+    <label for="achternaam">Achternaam</label>
+    <input type="text" placeholder="Uw achternaam..." required="">
+
+    <label for="email">E-mail</label>
+    <input type="email" placeholder="Uw mailadres..." required="">
+           
+    <label for="telefoon">Telefoonnummer</label>
+    <input type="text" pattern="[0-9]{10}" placeholder="Uw telefoonnummer..." required="" title="Vul een telefoonnummer van 10 cijfers in">
+           
+    <label for="land">Nationaliteit</label>
+    <select required=""> 
+    <option value="">Uw nationaliteit...</option>
+    <option value="Nederlands">Nederlands</option>
+    <option value="Duits">Duits</option>
+    <option value="Pools">Pools</option>
+    <option value="Frans">Frans</option>
+    <option value="Russisch">Russisch</option>
+    <option value="Oostenrijks">Oostenrijks</option>
+    <option value="Chinees">Chinees</option>
+    </select> 
+    <input type="submit" value="Verzenden">
+     </form></fieldset>
+      
+     </div>   
+    </div>
+   
+        
+</body></html>
