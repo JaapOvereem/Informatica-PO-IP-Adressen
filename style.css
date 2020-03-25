@@ -81,3 +81,8 @@ li a:hover {
   margin: auto;
   border-radius: 5px;
 }
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
