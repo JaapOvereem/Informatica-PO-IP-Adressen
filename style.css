@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  color: white;
+  color: black;
   
 }
 h2 {
@@ -10,17 +10,17 @@ h2 {
 body {
   margin:0 px;
 
-  color: white;
-  background-image: url('https://fris.online/wp-content/uploads/2018/05/shutterstock_377558.jpg');
+  color: black;
+  background-image: url('https://www.aukeverbeek.nl/wp-content/uploads/2013/05/pinsdaddy-website-backgrounds-1-zellox.jpg');
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: black(255, 255, 255);
   background-color: rgba(44, 44, 44, 0.089);
   font-family: Arial, Helvetica, sans-serif;
 }
 p {
-  color: white;
+  color: black;
    background-color: rgba(179, 179, 179, 0.205);
    text-align: center;
 
@@ -56,7 +56,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
